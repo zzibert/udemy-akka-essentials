@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/udemy-akka-essentials.iml" filepath="$PROJECT_DIR$/.idea/modules/udemy-akka-essentials.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/udemy-akka-essentials-build.iml" filepath="$PROJECT_DIR$/.idea/modules/udemy-akka-essentials-build.iml" />
     </modules>
   </component>
 </project>
