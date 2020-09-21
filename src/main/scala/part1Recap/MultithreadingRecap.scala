@@ -32,16 +32,7 @@ object MultithreadingRecap extends App {
   // wait-notify
 
   // Scala Future
-  val future = Future {
-    // long computation - on a different thread
-    42
-  }
 
-  future.onComplete {
-    case Success(42) => println("I found the meaning of life")
-    case Failure(_) => println("Domething happened with the meaning of life")
-  }
 
-  val aProcessedFuture = future.map(_ + 1) // future with 43
 
 }
