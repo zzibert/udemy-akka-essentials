@@ -68,7 +68,5 @@ object AdvancedScalaRecap extends App {
   println(List(1, 2, 3).sorted)
 
 
-  val future = Future {
-    
-  }
+
 }
