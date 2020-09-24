@@ -20,7 +20,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.12;2.5.13 {compile=[default(compile)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.12;2.5.13 {compile=[default(compile)]}
-[debug] 		tried /Users/zanzibert/.ivy2/local/com.typesafe.akka/akka-actor_2.12/2.5.13/ivys/ivy.xml
+[debug] 		tried /Users/zzibert/.ivy2/local/com.typesafe.akka/akka-actor_2.12/2.5.13/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.typesafe.akka#akka-actor_2.12;2.5.13
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.pom
 [debug] 	public: found md file for com.typesafe.akka#akka-actor_2.12;2.5.13
@@ -29,8 +29,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.12;2.5.13!akka-actor_2.12.pom(pom.original) (171ms)
-[debug] 		tried /Users/zanzibert/.ivy2/local/com.typesafe.akka/akka-actor_2.12/2.5.13/jars/akka-actor_2.12.jar
+[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.12;2.5.13!akka-actor_2.12.pom(pom.original) (180ms)
+[debug] 		tried /Users/zzibert/.ivy2/local/com.typesafe.akka/akka-actor_2.12/2.5.13/jars/akka-actor_2.12.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar
 [debug] 	found com.typesafe.akka#akka-actor_2.12;2.5.13 in public
 [debug] 	[2.5.13] com.typesafe.akka#akka-actor_2.12;2.5.13
@@ -56,7 +56,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe#config;1.3.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe#config;1.3.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/zanzibert/.ivy2/local/com.typesafe/config/1.3.2/ivys/ivy.xml
+[debug] 		tried /Users/zzibert/.ivy2/local/com.typesafe/config/1.3.2/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.typesafe#config;1.3.2
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.pom
 [debug] 	public: found md file for com.typesafe#config;1.3.2
@@ -65,8 +65,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.pom
-[debug] 	[SUCCESSFUL ] com.typesafe#config;1.3.2!config.pom(pom.original) (161ms)
-[debug] 		tried /Users/zanzibert/.ivy2/local/com.typesafe/config/1.3.2/bundles/config.jar
+[debug] 	[SUCCESSFUL ] com.typesafe#config;1.3.2!config.pom(pom.original) (163ms)
+[debug] 		tried /Users/zzibert/.ivy2/local/com.typesafe/config/1.3.2/bundles/config.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.jar
 [debug] 	found com.typesafe#config;1.3.2 in public
 [debug] == resolving dependencies com.typesafe.akka#akka-actor_2.12;2.5.13->com.typesafe#config;1.3.2 [compile->compile(*)]
@@ -82,7 +82,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/zanzibert/.ivy2/local/org.scala-lang.modules/scala-java8-compat_2.12/0.8.0/ivys/ivy.xml
+[debug] 		tried /Users/zzibert/.ivy2/local/org.scala-lang.modules/scala-java8-compat_2.12/0.8.0/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.scala-lang.modules#scala-java8-compat_2.12;0.8.0
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.pom
 [debug] 	public: found md file for org.scala-lang.modules#scala-java8-compat_2.12;0.8.0
@@ -91,8 +91,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.pom
-[debug] 	[SUCCESSFUL ] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.pom(pom.original) (61ms)
-[debug] 		tried /Users/zanzibert/.ivy2/local/org.scala-lang.modules/scala-java8-compat_2.12/0.8.0/bundles/scala-java8-compat_2.12.jar
+[debug] 	[SUCCESSFUL ] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.pom(pom.original) (84ms)
+[debug] 		tried /Users/zzibert/.ivy2/local/org.scala-lang.modules/scala-java8-compat_2.12/0.8.0/bundles/scala-java8-compat_2.12.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar
 [debug] 	found org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -125,7 +125,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-testkit_2.12;2.5.13 {compile=[default(compile)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-testkit_2.12;2.5.13 {compile=[default(compile)]}
-[debug] 		tried /Users/zanzibert/.ivy2/local/com.typesafe.akka/akka-testkit_2.12/2.5.13/ivys/ivy.xml
+[debug] 		tried /Users/zzibert/.ivy2/local/com.typesafe.akka/akka-testkit_2.12/2.5.13/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.typesafe.akka#akka-testkit_2.12;2.5.13
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.13/akka-testkit_2.12-2.5.13.pom
 [debug] 	public: found md file for com.typesafe.akka#akka-testkit_2.12;2.5.13
@@ -134,8 +134,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.13/akka-testkit_2.12-2.5.13.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.13/akka-testkit_2.12-2.5.13.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.13/akka-testkit_2.12-2.5.13.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-testkit_2.12;2.5.13!akka-testkit_2.12.pom(pom.original) (173ms)
-[debug] 		tried /Users/zanzibert/.ivy2/local/com.typesafe.akka/akka-testkit_2.12/2.5.13/jars/akka-testkit_2.12.jar
+[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-testkit_2.12;2.5.13!akka-testkit_2.12.pom(pom.original) (162ms)
+[debug] 		tried /Users/zzibert/.ivy2/local/com.typesafe.akka/akka-testkit_2.12/2.5.13/jars/akka-testkit_2.12.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.13/akka-testkit_2.12-2.5.13.jar
 [debug] 	found com.typesafe.akka#akka-testkit_2.12;2.5.13 in public
 [debug] 	[2.5.13] com.typesafe.akka#akka-testkit_2.12;2.5.13
@@ -171,7 +171,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.12;3.0.5 {compile=[default(compile)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.scalatest#scalatest_2.12;3.0.5 {compile=[default(compile)]}
-[debug] 		tried /Users/zanzibert/.ivy2/local/org.scalatest/scalatest_2.12/3.0.5/ivys/ivy.xml
+[debug] 		tried /Users/zzibert/.ivy2/local/org.scalatest/scalatest_2.12/3.0.5/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.scalatest#scalatest_2.12;3.0.5
 [debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.pom
 [debug] 	public: found md file for org.scalatest#scalatest_2.12;3.0.5
@@ -180,8 +180,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.pom
-[debug] 	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.pom(pom.original) (57ms)
-[debug] 		tried /Users/zanzibert/.ivy2/local/org.scalatest/scalatest_2.12/3.0.5/bundles/scalatest_2.12.jar
+[debug] 	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.pom(pom.original) (185ms)
+[debug] 		tried /Users/zzibert/.ivy2/local/org.scalatest/scalatest_2.12/3.0.5/bundles/scalatest_2.12.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar
 [debug] 	found org.scalatest#scalatest_2.12;3.0.5 in public
 [debug] == resolving dependencies default#udemy-akka-essentials_2.12;0.1->org.scalatest#scalatest_2.12;3.0.5 [compile->runtime]
@@ -226,7 +226,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scalactic#scalactic_2.12;3.0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.scalactic#scalactic_2.12;3.0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/zanzibert/.ivy2/local/org.scalactic/scalactic_2.12/3.0.5/ivys/ivy.xml
+[debug] 		tried /Users/zzibert/.ivy2/local/org.scalactic/scalactic_2.12/3.0.5/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.scalactic#scalactic_2.12;3.0.5
 [debug] 		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.pom
 [debug] 	public: found md file for org.scalactic#scalactic_2.12;3.0.5
@@ -235,8 +235,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.pom
-[debug] 	[SUCCESSFUL ] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.pom(pom.original) (58ms)
-[debug] 		tried /Users/zanzibert/.ivy2/local/org.scalactic/scalactic_2.12/3.0.5/bundles/scalactic_2.12.jar
+[debug] 	[SUCCESSFUL ] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.pom(pom.original) (332ms)
+[debug] 		tried /Users/zzibert/.ivy2/local/org.scalactic/scalactic_2.12/3.0.5/bundles/scalactic_2.12.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar
 [debug] 	found org.scalactic#scalactic_2.12;3.0.5 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -2136,234 +2136,58 @@
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.13/akka-testkit_2.12-2.5.13.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.jar ...
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.13/akka-testkit_2.12-2.5.13.jar ...
+[info] downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar ...
+[info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.13/akka-testkit_2.12-2.5.13.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar
-[debug] no default ivy user dir defined: set to /Users/zanzibert/.ivy2
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
-[debug] no default ivy user dir defined: set to /Users/zanzibert/.ivy2
-[debug] no default ivy user dir defined: set to /Users/zanzibert/.ivy2
-[debug] no default ivy user dir defined: set to /Users/zanzibert/.ivy2
-[debug] no default ivy user dir defined: set to /Users/zanzibert/.ivy2
-[debug] no default ivy user dir defined: set to /Users/zanzibert/.ivy2
-[debug] no default ivy user dir defined: set to /Users/zanzibert/.ivy2
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar
-[debug] no default ivy user dir defined: set to /Users/zanzibert/.ivy2
-[debug] no default ivy user dir defined: set to /Users/zanzibert/.ivy2
-[debug] no default ivy user dir defined: set to /Users/zanzibert/.ivy2
-[debug] no default ivy user dir defined: set to /Users/zanzibert/.ivy2
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /Users/zanzibert/.ivy2/cache
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /Users/zanzibert/.ivy2/cache
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /Users/zanzibert/.ivy2/cache
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /Users/zanzibert/.ivy2/cache
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /Users/zanzibert/.ivy2/cache
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /Users/zanzibert/.ivy2/cache
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /Users/zanzibert/.ivy2/cache
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /Users/zanzibert/.ivy2/cache
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /Users/zanzibert/.ivy2/cache
-[debug] no default cache defined: set to /Users/zanzibert/.ivy2/cache
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /Users/zanzibert/.ivy2/cache
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] settings loaded (41ms)
-[debug] 	default cache: /Users/zanzibert/.ivy2/cache
-[debug] 	default resolver: default
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (45ms)
-[debug] 	default cache: /Users/zanzibert/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] settings loaded (45ms)
-[debug] 	default cache: /Users/zanzibert/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (45ms)
-[debug] 	default cache: /Users/zanzibert/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (49ms)
-[debug] 	default cache: /Users/zanzibert/.ivy2/cache
-[debug] settings loaded (45ms)
-[debug] 	default resolver: default
-[debug] 	default cache: /Users/zanzibert/.ivy2/cache
-[debug] 	-- 5 resolvers:
-[debug] 	default resolver: default
-[debug] 	shared [file]
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (44ms)
-[debug] 	default cache: /Users/zanzibert/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (50ms)
-[debug] 	default cache: /Users/zanzibert/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (54ms)
-[debug] 	default cache: /Users/zanzibert/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/zanzibert/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (50ms)
-[debug] 	default cache: /Users/zanzibert/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (57ms)
-[debug] 	default cache: /Users/zanzibert/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.jar.sha1
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.13/akka-testkit_2.12-2.5.13.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.jar
-[info] 	[SUCCESSFUL ] com.typesafe#config;1.3.2!config.jar(bundle) (427ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.13/akka-testkit_2.12-2.5.13.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-testkit_2.12;2.5.13!akka-testkit_2.12.jar (544ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-testkit_2.12;2.5.13!akka-testkit_2.12.jar (1856ms)
+[info] 	[SUCCESSFUL ] com.typesafe#config;1.3.2!config.jar(bundle) (1856ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar
-[info] 	[SUCCESSFUL ] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(bundle) (604ms)
+[info] 	[SUCCESSFUL ] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(bundle) (2705ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(bundle) (742ms)
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(bundle) (3561ms)
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.13/akka-actor_2.12-2.5.13.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.12;2.5.13!akka-actor_2.12.jar (1250ms)
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.12;2.5.13!akka-actor_2.12.jar (6294ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar
-[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(bundle) (1303ms)
-[debug] :: resolution report :: resolve 4969ms :: artifacts dl 1481ms
-[debug] 	report for default#udemy-akka-essentials_2.12;0.1 compile produced in /Users/zanzibert/Razvoj/udemy-akka-essentials/target/scala-2.12/resolution-cache/reports/default-udemy-akka-essentials_2.12-compile.xml
-[debug] 	report for default#udemy-akka-essentials_2.12;0.1 runtime produced in /Users/zanzibert/Razvoj/udemy-akka-essentials/target/scala-2.12/resolution-cache/reports/default-udemy-akka-essentials_2.12-runtime.xml
-[debug] 	report for default#udemy-akka-essentials_2.12;0.1 test produced in /Users/zanzibert/Razvoj/udemy-akka-essentials/target/scala-2.12/resolution-cache/reports/default-udemy-akka-essentials_2.12-test.xml
-[debug] 	report for default#udemy-akka-essentials_2.12;0.1 provided produced in /Users/zanzibert/Razvoj/udemy-akka-essentials/target/scala-2.12/resolution-cache/reports/default-udemy-akka-essentials_2.12-provided.xml
-[debug] 	report for default#udemy-akka-essentials_2.12;0.1 optional produced in /Users/zanzibert/Razvoj/udemy-akka-essentials/target/scala-2.12/resolution-cache/reports/default-udemy-akka-essentials_2.12-optional.xml
-[debug] 	report for default#udemy-akka-essentials_2.12;0.1 compile-internal produced in /Users/zanzibert/Razvoj/udemy-akka-essentials/target/scala-2.12/resolution-cache/reports/default-udemy-akka-essentials_2.12-compile-internal.xml
-[debug] 	report for default#udemy-akka-essentials_2.12;0.1 runtime-internal produced in /Users/zanzibert/Razvoj/udemy-akka-essentials/target/scala-2.12/resolution-cache/reports/default-udemy-akka-essentials_2.12-runtime-internal.xml
-[debug] 	report for default#udemy-akka-essentials_2.12;0.1 test-internal produced in /Users/zanzibert/Razvoj/udemy-akka-essentials/target/scala-2.12/resolution-cache/reports/default-udemy-akka-essentials_2.12-test-internal.xml
-[debug] 	report for default#udemy-akka-essentials_2.12;0.1 plugin produced in /Users/zanzibert/Razvoj/udemy-akka-essentials/target/scala-2.12/resolution-cache/reports/default-udemy-akka-essentials_2.12-plugin.xml
-[debug] 	report for default#udemy-akka-essentials_2.12;0.1 pom produced in /Users/zanzibert/Razvoj/udemy-akka-essentials/target/scala-2.12/resolution-cache/reports/default-udemy-akka-essentials_2.12-pom.xml
-[debug] 	report for default#udemy-akka-essentials_2.12;0.1 scala-tool produced in /Users/zanzibert/Razvoj/udemy-akka-essentials/target/scala-2.12/resolution-cache/reports/default-udemy-akka-essentials_2.12-scala-tool.xml
-[debug] 	resolve done (4969ms resolve - 1481ms download)
+[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(bundle) (6537ms)
+[debug] :: resolution report :: resolve 3070ms :: artifacts dl 6540ms
+[debug] 	report for default#udemy-akka-essentials_2.12;0.1 compile produced in /Users/zzibert/udemy-akka-essentials/target/scala-2.12/resolution-cache/reports/default-udemy-akka-essentials_2.12-compile.xml
+[debug] 	report for default#udemy-akka-essentials_2.12;0.1 runtime produced in /Users/zzibert/udemy-akka-essentials/target/scala-2.12/resolution-cache/reports/default-udemy-akka-essentials_2.12-runtime.xml
+[debug] 	report for default#udemy-akka-essentials_2.12;0.1 test produced in /Users/zzibert/udemy-akka-essentials/target/scala-2.12/resolution-cache/reports/default-udemy-akka-essentials_2.12-test.xml
+[debug] 	report for default#udemy-akka-essentials_2.12;0.1 provided produced in /Users/zzibert/udemy-akka-essentials/target/scala-2.12/resolution-cache/reports/default-udemy-akka-essentials_2.12-provided.xml
+[debug] 	report for default#udemy-akka-essentials_2.12;0.1 optional produced in /Users/zzibert/udemy-akka-essentials/target/scala-2.12/resolution-cache/reports/default-udemy-akka-essentials_2.12-optional.xml
+[debug] 	report for default#udemy-akka-essentials_2.12;0.1 compile-internal produced in /Users/zzibert/udemy-akka-essentials/target/scala-2.12/resolution-cache/reports/default-udemy-akka-essentials_2.12-compile-internal.xml
+[debug] 	report for default#udemy-akka-essentials_2.12;0.1 runtime-internal produced in /Users/zzibert/udemy-akka-essentials/target/scala-2.12/resolution-cache/reports/default-udemy-akka-essentials_2.12-runtime-internal.xml
+[debug] 	report for default#udemy-akka-essentials_2.12;0.1 test-internal produced in /Users/zzibert/udemy-akka-essentials/target/scala-2.12/resolution-cache/reports/default-udemy-akka-essentials_2.12-test-internal.xml
+[debug] 	report for default#udemy-akka-essentials_2.12;0.1 plugin produced in /Users/zzibert/udemy-akka-essentials/target/scala-2.12/resolution-cache/reports/default-udemy-akka-essentials_2.12-plugin.xml
+[debug] 	report for default#udemy-akka-essentials_2.12;0.1 pom produced in /Users/zzibert/udemy-akka-essentials/target/scala-2.12/resolution-cache/reports/default-udemy-akka-essentials_2.12-pom.xml
+[debug] 	report for default#udemy-akka-essentials_2.12;0.1 scala-tool produced in /Users/zzibert/udemy-akka-essentials/target/scala-2.12/resolution-cache/reports/default-udemy-akka-essentials_2.12-scala-tool.xml
+[debug] 	resolve done (3070ms resolve - 6540ms download)
 [info] Done updating.

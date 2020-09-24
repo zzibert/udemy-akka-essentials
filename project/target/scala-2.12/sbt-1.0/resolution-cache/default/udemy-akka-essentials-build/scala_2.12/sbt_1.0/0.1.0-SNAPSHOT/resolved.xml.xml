@@ -4,7 +4,7 @@
 		module="udemy-akka-essentials-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20200920115705"
+		publication="20200924101705"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>
