@@ -31,14 +31,14 @@ object ChangingActorBehavior extends App {
     override def receive: Receive = happyReceive
 
     def happyReceive: Receive = {
-      case Food(VEGETABLE) => context.become(sadReceive)
+      case Food(VEGETABLE) => context.become(sadReceive, false)
       case Food(CHOCOLATE) =>
       case Ask(_) => sender ! KidAccept
     }
 
     def sadReceive: Receive = {
-      case Food(VEGETABLE) =>
-      case Food(CHOCOLATE) => context.become(happyReceive)
+      case Food(VEGETABLE) => context.become(sadReceive, false)
+      case Food(CHOCOLATE) => context.unbecome()
       case Ask(_) => sender ! KidReject
     }
   }
@@ -60,6 +60,9 @@ object ChangingActorBehavior extends App {
       case KidReject => println("my kid is sad, but he is healthy")
       case MomStart(kid) =>
         kid ! Food(VEGETABLE)
+        kid ! Food(VEGETABLE)
+        kid ! Food(CHOCOLATE)
+        kid ! Food(CHOCOLATE)
         kid ! Ask("Do you want to play")
       case GiveChocolate(kid) =>
         kid ! Food(CHOCOLATE)
@@ -72,8 +75,10 @@ object ChangingActorBehavior extends App {
   val fussyKid = system.actorOf(Props[FussyKid], "fussyKid")
   val mom = system.actorOf(Props[Mom], "mom")
   val stateLessFussyKid = system.actorOf(Props[StateLessFussyKid], "statelessfussykid")
+
   import Mom._
+
   mom ! MomStart(stateLessFussyKid)
-  mom ! GiveChocolate(stateLessFussyKid)
+
 
 }
